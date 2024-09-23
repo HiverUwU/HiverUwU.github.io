@@ -17,5 +17,14 @@ body {
     background-color: #a0643c;
     font-weight: bold;
     color: black;
-    line-height: 0.5;
+    
+}
+
+h2 {
+    font-size: 24;
+}
+
+p {
+    line-height: 1.0;
+    font-size: 14;
 }
