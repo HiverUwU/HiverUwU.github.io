@@ -1,0 +1,19 @@
+@font-face {
+    font-family: cascadia;
+    src: url("../fonts/Cascadia.ttf");
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, cascadia;
+    background-color: #a0643c;
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    line-height: 0.4;
+}
