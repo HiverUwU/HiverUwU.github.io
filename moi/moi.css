@@ -28,3 +28,25 @@ p {
     line-height: 1.0;
     font-size: 14;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-section {
+    width: 60%;
+}
+
+.text-box {
+    border: 3px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.image-section {
+    width: 30%;
+    border: 3px solid black;
+    padding: 20px;
+}
