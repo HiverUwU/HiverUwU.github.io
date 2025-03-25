@@ -12,3 +12,37 @@ body {
     background-color: #ff69b4;
     font-family: Arial;
 }
+
+.box {
+    width: 60%;
+    height: 150px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+}
+
+.box p {
+    display: none;
+}
+
+.box.active {
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+
+.box.active p {
+    display: block;
+}
+
+.uwu {
+    color: #ff69b4;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.6);
+}
